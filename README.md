@@ -6,7 +6,7 @@ Systems engineer focused on **Qubes OS**, **KVM/libvirt virtualization**, and **
 
 ### Qubes OS KVM Port
 
-Porting Qubes OS from Xen to KVM/libvirt with aarch64 (ARM64) support.
+Porting Qubes OS from Xen to KVM/libvirt with full aarch64 (ARM64) support.
 
 | Repo | What it does |
 |------|-------------|
@@ -23,7 +23,7 @@ Porting Qubes OS from Xen to KVM/libvirt with aarch64 (ARM64) support.
 | [qubes-linux-utils](https://github.com/GabrieleRisso/qubes-linux-utils/tree/kvm-v43) | Hypervisor detection and virtio device integration |
 | [qubes-builderv2](https://github.com/GabrieleRisso/qubes-builderv2/tree/kvm-v43) | KVM dev config and aarch64 cross-build |
 
-All KVM work lives on the `kvm-v43` branch. Latest tag: **v4.3.0-kvm3**.
+All KVM work lives on the `kvm-v43` branch of each QubesOS fork.
 
 ---
 
@@ -31,7 +31,7 @@ All KVM work lives on the `kvm-v43` branch. Latest tag: **v4.3.0-kvm3**.
 
 | Repo | What it does |
 |------|-------------|
-| [**qvm-remote**](https://github.com/GabrieleRisso/qvm-remote) | Dom0 remote execution with web admin panel, GTK UI, and CLI (HMAC-SHA256 auth) |
+| [**qvm-remote**](https://github.com/GabrieleRisso/qvm-remote) | Dom0 remote execution: CLI + Web Admin Panel + GTK UI (HMAC-SHA256 auth) |
 | [**qubes-claw**](https://github.com/GabrieleRisso/qubes-claw) | Multi-VM AI agent orchestration with Cursor Pro proxy |
 | [**openclaw**](https://github.com/GabrieleRisso/openclaw) | HTTP proxy multiplexing Cursor Pro models across agents (Go) |
 | [qubes-dom0-cde-themes](https://github.com/GabrieleRisso/qubes-dom0-cde-themes) | 131 CDE/Motif palettes for XFCE4, Motif color algorithm, genmon scripts |
@@ -44,5 +44,6 @@ All KVM work lives on the `kvm-v43` branch. Latest tag: **v4.3.0-kvm3**.
 |------|-------------|
 | [**lain**](https://github.com/GabrieleRisso/lain) | tmux-powered container dashboard with kitty and web browser |
 | [chicago95-browser](https://github.com/GabrieleRisso/chicago95-browser) | Firefox extension with retro Windows 95 theme |
+| [itaflix](https://github.com/GabrieleRisso/itaflix) | Terminal streaming client for the shell |
 | [tokenspender](https://github.com/GabrieleRisso/tokenspender) | AI automation platform |
 | [plane-workspace](https://github.com/GabrieleRisso/plane-workspace) | Virtual desktop workspace with MCP server |
